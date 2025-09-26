@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  background-color: lightslategray;
+  text-align: center;
+  align-items: center;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Home Section */
+#home {
+  background: #ffffff;
+  color: #212121;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #1a237E;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #29B6F6;
+}
+/* Education*/
+.education{
+  text-align: center;
+}
+/* Skills Section */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill {
+  background: #E3F2FD;
+  color: #1A237E;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Projects Section */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  border: 1px solid #B0BEC5;
+  background-color: #FFFFFF;
+  color: #212121;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #1A237E;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  color: #29B6F6;
+}
+
+/* Contact Section */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto 0;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #B0BEC5;
+  background: #fafafa;
+}
+
+form button {
+  padding: 10px;
+  background: #1A237E;
+  color: #fffFff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #29B6F6;
+}
